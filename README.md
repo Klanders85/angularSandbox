@@ -2,7 +2,7 @@
 
 <h3>Intro</h3>
 <hr />
-<p>This repo was created to save and view my progress while learning Angular.js. It became apparent that this was going to have a steep learning curve and saving things that worked as a reference is crucial.</p>
+<p>This repo was created to save and view my progress while learning Angular.js. It became apparent that this was going to have a steep learning curve and using things that worked as a reference was/is crucial.</p>
 
 <h3>Structure</h3>
 <hr />
