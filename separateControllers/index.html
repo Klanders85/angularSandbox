@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Binds itself to the angular init app -->
+<html data-ng-app="myApp">
+<head>
+	<title>Angular Sandbox</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="css/build/main.css">
+</head>
+<body>
+	<div class="row">
+		<div class="small-12 columns text-center intro">
+			<h1>Angular Sandbox</h1>
+		</div>
+	</div>
+	<div class="row">
+
+		<div class="small-6 columns text-center family">
+			<div class="12-small text-left columns">
+				<h2>Family</h2>
+
+				<!-- declares that this element has access to contents of familyDataController -->
+				<ul data-ng-controller="familyDataController">
+
+					<!-- iterating through the data it gained access to due to the controller above -->
+					<li data-ng-repeat="member in family">{{member.name}} | {{member.age}} | {{member.occupation}} | {{member.nflTeam}}</li>
+				</ul>
+			</div>
+			<a href="#" class="button">Family Info.</a>
+		</div>
+
+		<div class="small-6 columns text-center friends">
+			<div class="12-small text-left columns">
+				<h2>Friends</h2>
+
+				<!-- declares that this element has access to contents of familyDataController -->
+				<ul data-ng-controller="friendsDataController">
+					<!-- iterating through the data it gained access to due to the controller above -->
+					<li data-ng-repeat="friend in friends">{{friend.name}} | {{friend.age}} | {{friend.occupation}} | {{friend.nflTeam}}</li>
+				</ul>
+			</div>
+			<a href="#" class="button">Friends Info.</a>
+		</div>
+
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="/controllers/familyDataController.js"></script>
+	<script src="/controllers/friendsDataController.js"></script>
+</body>
+</html>

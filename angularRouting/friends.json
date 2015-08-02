@@ -1,0 +1,23 @@
+[
+	{
+		"f_name" : "Kelly",
+		"l_name" : "Landers",
+		"sex"    : "M",
+		"height" : "6ft",
+		"weight" : "175lbs"
+	},
+	{
+		"f_name" : "Crystal",
+		"l_name" : "Landers",
+		"sex"    : "F",
+		"height" : "5'10",
+		"weight" : "155lbs"
+	},
+	{
+		"f_name" : "Adam",
+		"l_name" : "Olsen",
+		"sex"    : "M",
+		"height" : "6'4",
+		"weight" : "200lbs"
+	}
+]

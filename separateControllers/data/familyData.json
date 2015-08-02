@@ -1,0 +1,32 @@
+[
+	{
+		"name" : "Kelly Landers",
+		"age"  : "30",
+		"occupation" : "Web Developer",
+		"nflTeam" : "Denver Broncos"
+	},
+	{
+		"name" : "Crystal Landers",
+		"age"  : "31",
+		"occupation" : "Hair Stylist",
+		"nflTeam" : "Dallas Cowboys"
+	},
+	{
+		"name" : "Maddix Landers",
+		"age"  : "9",
+		"occupation" : "Student",
+		"nflTeam" : "Denver Broncos"
+	},
+	{
+		"name" : "Clovis Landers",
+		"age"  : "5",
+		"occupation" : "Housecat",
+		"nflTeam" : "Denver Broncos"
+	},
+	{
+		"name" : "Brownie Landers",
+		"age"  : "3",
+		"occupation" : "Housecat",
+		"nflTeam" : "Denver Broncos"
+	}
+]

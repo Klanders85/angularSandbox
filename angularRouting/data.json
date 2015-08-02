@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "559e09e511fd1941bf7175f6",
+    "index": 0,
+    "guid": "51c47990-07a2-4fb6-9aa0-749d595d21c1",
+    "isActive": false,
+    "balance": "$1,397.42",
+    "picture": "http://placehold.it/32x32",
+    "age": 26,
+    "eyeColor": "blue",
+    "name": "Bettye Lane",
+    "gender": "female",
+    "company": "MELBACOR",
+    "email": "bettyelane@melbacor.com",
+    "phone": "+1 (990) 571-3519",
+    "address": "509 Meadow Street, Fairlee, Kansas, 9144",
+    "about": "Veniam aute est dolor quis. Labore laboris velit anim id magna sit. Incididunt officia laboris fugiat fugiat aliquip id est dolor amet velit est.\r\n",
+    "registered": "2014-09-22T23:10:28 +05:00",
+    "latitude": -46.644844,
+    "longitude": 121.357014,
+    "tags": [
+      "ullamco",
+      "ipsum",
+      "cillum",
+      "veniam",
+      "laboris",
+      "cillum",
+      "eiusmod"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Delacruz Christensen"
+      },
+      {
+        "id": 1,
+        "name": "Hancock Bennett"
+      },
+      {
+        "id": 2,
+        "name": "Leta Lara"
+      }
+    ],
+    "greeting": "Hello, Bettye Lane! You have 6 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+]

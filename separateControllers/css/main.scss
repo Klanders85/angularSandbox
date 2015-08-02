@@ -1,0 +1,24 @@
+body{
+	padding: 2em;
+	background-color: black;
+	color: white;
+}
+
+ul{
+	margin: 8% 0;
+	padding: 0;
+	li{
+		list-style-type: none;
+	}
+}
+.intro{
+	margin-bottom: 5%;
+}
+.newDataSection{
+	margin-bottom: 30px;
+}
+.newDataSection h2{
+	border-bottom: 1px solid lightgrey;
+	display: inline-block;
+	width: 40%;
+}

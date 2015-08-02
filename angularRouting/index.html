@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-ng-app='app'>
+<head>
+	<title>Angular Routing</title>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Angular CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-route.min.js"></script>
+	<script src="app.js"></script>
+	<!-- Angular - Router CDN -->
+
+    <style>
+        html{
+            padding: 50px;
+        }
+        p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+	<!-- HEADER AND NAVBAR -->
+    <header>
+        <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Angular Routing</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right ">
+                <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+                <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <div id="main">
+    	<div ng-view></div>
+    </div>
+</body>
+</html>

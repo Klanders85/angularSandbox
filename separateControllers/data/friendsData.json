@@ -1,0 +1,32 @@
+[
+	{
+		"name" : "Adam Olsen",
+		"age"  : "40",
+		"occupation" : "Business Owner",
+		"nflTeam" : "Dallas Cowboys"
+	},
+	{
+		"name" : "Jeremy Rawlings",
+		"age"  : "36",
+		"occupation" : "Gen. Contractor",
+		"nflTeam" : "San Diego Chargers"
+	},
+	{
+		"name" : "Pat Hillin",
+		"age"  : "32",
+		"occupation" : "CAD Engineer",
+		"nflTeam" : "Dallas Cowboys"
+	},
+	{
+		"name" : "PJ Cadungug",
+		"age"  : "31",
+		"occupation" : "Hospital Manager",
+		"nflTeam" : "Seattle Seahawks"
+	},
+	{
+		"name" : "Corey Clifton",
+		"age"  : "36",
+		"occupation" : "Real Estate Estimator",
+		"nflTeam" : "Dallas Cowboys"
+	}
+]
