@@ -22,7 +22,7 @@
 <p>From the directory root</p>
 <ol>
 	<li>Open up <code>terminal</code></li>
-	<li><code>cd</code> to the directory root</li>
+	<li>make sure you are at the directory root</li>
 	<li>run <code>mkdir css</code></li>
 	<li>run <code>cd css</code></li>
 	<li>run <code>touch main.css</code></li>
